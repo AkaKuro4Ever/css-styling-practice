@@ -1,0 +1,45 @@
+input {
+  font-size: 32px;
+  outline: none;
+  border-radius: 60px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 20px 30px;
+  width: 300px;
+  font-family: Montserrat-Regular;
+  /*margin: 30px auto; top right bottom left*/
+  /* padding: 0px 300px 0px 0px; */
+  box-sizing: border-box;
+
+}
+
+input:focus {
+  border: .2px solid #555;
+  background-color: lightgrey;
+}
+
+input:hover {
+  border: 1px solid #555;
+}
+
+label {
+  display: inline-flex;
+  font-size: 20px;
+  padding: 0 0 0 20px;
+  width: 100px;
+}
+
+.login-form {
+  margin: 30px auto; /*top right bottom left*/
+  display: block;
+  width: 500px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.full-form {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
