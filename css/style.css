@@ -30,17 +30,17 @@ label {
   padding: 0 0 0 20px;
   width: 100px;
 }
-
+/*
 .login-form {
-  margin: 30px auto; /*top right bottom left*/
+  margin: 30px auto; top right bottom left
   display: block;
   width: 500px;
   height: 400px;
   box-sizing: border-box;
   background-color: grey;
-}
+} */
 
-.full-form {
+.login-full-form {
   display: block;
   width: 500px;
   height: 400px;
@@ -51,12 +51,37 @@ label {
   position: relative;
 }
 
-footer {
-  margin-top: 10px;
+.signup-full-form {
   display: block;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #22323C;
+  top: 70px;
+  position: relative;
+}
+
+footer {
   text-align: center;
-  color: #22323C;
   font-style: italic;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
 }
 
 h2 {
@@ -133,7 +158,36 @@ li a:hover {
   color: white;
 }
 
-h1 {
-  margin: 10px;
+a:visited {
+  color: blue;
+}
+
+#logo {
   font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  position: relative;
+  top: 100px;
+}
+
+img {
+  width: 450px;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: justify;
+}
+
+p {
+  width: 700px;
+  padding: 0px 50px;
+  text-align: justify;
+}
+
+body {
+  position: relative;
+  padding-bottom: 180px;
 }
