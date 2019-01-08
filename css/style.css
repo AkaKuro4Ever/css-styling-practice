@@ -1,9 +1,9 @@
 input {
-  font-size: 22px;
+  font-size: 18px;
   outline: none;
   border-radius: 60px;
   border: 1px solid lightgrey;
-  padding: 20px;
+  padding: 15px;
   margin: 30px auto;
   width: 360px;
   height: 100%;
@@ -43,7 +43,7 @@ label {
 .login-full-form {
   display: block;
   width: 500px;
-  height: 400px;
+  height: 370px;
   margin: auto;
   border-radius: 30px;
   background-color: #22323C;
@@ -54,7 +54,7 @@ label {
 .signup-full-form {
   display: block;
   width: 500px;
-  height: 500px;
+  height: 450px;
   margin: auto;
   border-radius: 30px;
   background-color: #22323C;
@@ -75,6 +75,7 @@ label {
 
 h2 {
   padding-top: 10px;
+  font-size: 32px;
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -111,14 +112,94 @@ li a{
   margin: 0px;
   background-color: #22323C;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 100px;
   float: left;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
+@media (max-width:1150px){
+       li a {
+           padding: 14px 90px;
+       }
+       nav ul {
+       	list-style: none;
+       	width: 1000px;
+       	margin: 0 auto;
+       	padding: 0;
+       }
+     }
+
+@media (max-width:1000px){
+      li a {
+          padding: 14px 60px;
+      }
+      nav ul {
+      	list-style: none;
+      	width: 700px;
+      	margin: 0 auto;
+      	padding: 0;
+      }
+    }
+
+@media (max-width:890px){
+      li a {
+          padding: 14px 50px;
+      }
+      nav ul {
+      	list-style: none;
+      	width: 700px;
+      	margin: 0 auto;
+      	padding: 0;
+      }
+    }
+
+@media (max-width:843px){
+      li a {
+          padding: 14px 40px;
+      }
+      nav ul {
+      	list-style: none;
+      	width: 600px;
+      	margin: 0 auto;
+      	padding: 0;
+      }
+    }
+
+@media (max-width:760px){
+      li a {
+          padding: 14px 30px;
+      }
+      nav ul {
+      	list-style: none;
+      	width: 500px;
+      	margin: 0 auto;
+      	padding: 0;
+      }
+    }
+
+@media (max-width:700px){
+      li a {
+          padding: 14px 20px;
+      }
+      nav ul {
+      	list-style: none;
+      	width: 400px;
+      	margin: 0 auto;
+      	padding: 0;
+      }
+    }
+
+nav ul {
+	list-style: none;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 nav {
   position: absolute;
+  float: left;
   width: 100%;
 }
 
@@ -162,25 +243,49 @@ section {
 
 img {
   width: 450px;
+  margin-left: 20px;
   height: auto;
+  float: right;
+  display: block;
 }
 
-figcaption {
+#cats{
+  float: right;
+  text-align: right;
   font-style: italic;
-  text-align: justify;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#video {
+  font-style: italic;
+  font-size: smaller;
+  position: relative;
+  text-align: right;
 }
 
 p {
-  width: 700px;
   padding: 0px 50px;
   text-align: justify;
 }
 
 body {
   position: relative;
-  padding-bottom: 180px;
+  padding-bottom: 200px;
+}
+
+#extra-section {
+  height: 210px;
+  visibility: hidden;
 }
 
 #details {
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
 }
