@@ -62,17 +62,6 @@ label {
   position: relative;
 }
 
-footer {
-  text-align: center;
-  font-style: italic;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-}
-
 .footer {
   text-align: center;
   font-style: italic;
@@ -190,4 +179,8 @@ p {
 body {
   position: relative;
   padding-bottom: 180px;
+}
+
+#details {
+  font-family: 'Montserrat', sans-serif;
 }
